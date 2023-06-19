@@ -24,6 +24,7 @@ export const getWeatherAnimation = (code: string | undefined) => {
     'overcast clouds':  broken_clouds,
     'scattered clouds': scattered_clouds,
     'moderate rain': rain,
+    'light rain': rain,
   };
 
   if (code && weatherCodes[code]) {
