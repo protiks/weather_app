@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-undef": "error",
+    "no-extra-semi": "error",
+    "no-use-before-define": "error",
+    "no-empty": "error",
+    "no-eval": "error",
+    "no-console": "error",
+    "no-alert": "error",
+    "no-debugger": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "eqeqeq": "error",
+    "strict": ["error", "global"]
+  }
+}
