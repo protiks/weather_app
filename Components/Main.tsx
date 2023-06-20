@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from 'react';
-import { AppContext } from "./AppContext";
+import { AppContext } from "../Utils/AppContext";
 import Week from './Week';
-import Current from './Components/Current';
-import EmptyWeek from './Components/EmptyWeek';
-import EmptyCurrent from './Components/EmptyCurrent';
-import { useLocation, useWeather } from './Queries';
+import Current from './Current';
+import EmptyWeek from './EmptyWeek';
+import EmptyCurrent from './EmptyCurrent';
+import { useLocation, useWeather } from '../Utils/Queries';
 
 const absolute_zero = 273.15;
 

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import BasicCard from "./Components/BasicCard";
-import { WeatherResponse } from "./types";
+import BasicCard from "./BasicCard";
+import { WeatherResponse } from "../Utils/types";
 
 interface Props {
   forecast: WeatherResponse["daily"];
@@ -8,8 +8,7 @@ interface Props {
 
 const Week = ({ forecast }: Props) => {
   if (!forecast || forecast.length === 0) {
-    // Handle the case when forecast is undefined or empty
-    return null; // or render a placeholder, an empty state, or a loading indicator
+    return null
   }
 
   return (

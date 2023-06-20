@@ -1,9 +1,9 @@
 import { Box } from "@mui/material"
 
-import AppProvider from "../AppContext"
+import AppProvider from "../Utils/AppContext"
 import Background from "./Background"
 import ButtonAppBar from "./ButonAppBar"
-import Main from "../Main"
+import Main from "./Main"
 
 const AppUI = () => {
     return (

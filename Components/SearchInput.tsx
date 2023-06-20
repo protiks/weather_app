@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Box, Button, Input } from "@mui/material";
-import { AppContext } from "./AppContext";
+import { AppContext } from "../Utils/AppContext";
 
 const SearchInput = () => {
     const [inputValue, setInputValue] = useState("");

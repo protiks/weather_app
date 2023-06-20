@@ -1,11 +1,11 @@
-import few_clouds from './assets/few_clouds.json' 
-import scattered_clouds from './assets/scattered_clouds.json';
-import rain from './assets/rain.json';
-import broken_clouds from './assets/broken_clouds.json';
-import thunderstorm from './assets/thunderstorm.json';
-import snow from './assets/snow.json';
-import mist from './assets/mist.json';
-import clear_sky from './assets/clear_sky.json';
+import few_clouds from '../assets/few_clouds.json' 
+import scattered_clouds from '../assets/scattered_clouds.json';
+import rain from '../assets/rain.json';
+import broken_clouds from '../assets/broken_clouds.json';
+import thunderstorm from '../assets/thunderstorm.json';
+import snow from '../assets/snow.json';
+import mist from '../assets/mist.json';
+import clear_sky from '../assets/clear_sky.json';
 
 interface WeatherCodes {
   [key: string]: any;

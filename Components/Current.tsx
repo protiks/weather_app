@@ -1,8 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import Lottie from "react-lottie";
-import SearchInput from "../SearchInput";
+import SearchInput from "./SearchInput";
 
-import { getWeatherAnimation } from "@/weatherUtils";
+import { getWeatherAnimation } from "@/Utils/weatherUtils";
 
 interface Props {
     isLoading: boolean;
